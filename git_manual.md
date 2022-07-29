@@ -20,17 +20,19 @@ git commit -m "added framework submodule"
 git clone --recursive git://<repository-with-submodules>.git
 ```
 
-### **拉取主仓库，手动更新拉取子仓库**
+### **拉取主仓库后，手动更新拉取子仓库**
 
 > 注：先录取主仓库后，手动更新子仓库
 
 ```
+cd project/framework
 git submodule update --init
 ```
 
 或
 
 ```
+cd project/framework
 git submodule init
 git submodule update
 ```
