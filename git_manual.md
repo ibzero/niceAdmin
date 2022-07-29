@@ -25,6 +25,12 @@ git clone --recursive git://<repository-with-submodules>.git
 > 注：先录取主仓库后，手动更新子仓库
 
 ```
+git submodule update --init
+```
+
+或
+
+```
 git submodule init
 git submodule update
 ```
