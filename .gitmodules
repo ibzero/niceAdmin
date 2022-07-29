@@ -1,3 +1,4 @@
 [submodule "nicevite"]
 	path = nicevite
 	url = https://github.com/ibzero/nicevite.git
+	ignore = dirty

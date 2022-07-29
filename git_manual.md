@@ -45,3 +45,15 @@ git pull
 cd ..
 git commit -m 'updated framework submodule'
 ```
+
+### **子仓库配置**
+
+> 修改根目录下 `.gitmodules` 文件，添加 `ignore = dirty` 子项
+
+**`ignore` 子项说明**
+
+```
+untracked ：忽略 在子模块B(也就是projectB目录)新添加的，未受版本控制内容
+dirty ： 忽略对projectB目录下受版本控制的内容进行了修改
+all ： 同时忽略untracked和dirty
+```
