@@ -25,15 +25,15 @@ git clone --recursive git://<repository-with-submodules>.git
 > 注：先录取主仓库后，手动更新子仓库
 
 ```
-cd project/framework
 git submodule update --init
 ```
 
 或
 
 ```
-cd project/framework
+# submodule 'framework' registered for path 'project'
 git submodule init
+# checkout submodule 'framework'
 git submodule update
 ```
 
